@@ -6,7 +6,7 @@ package dnf
 // #cgo pkg-config: libdnf
 //
 // #cgo LDFLAGS: -Wl,--wrap=__secure_getenv -Wl,--wrap=glob64 -Wl,--wrap=glob
-// #include "wrapper.h"
+// #include "glib_wrapper.h"
 // #include <libdnf/libdnf.h>
 //
 // void gSignalConnect(gpointer obj, gchar *sig, GCallback callback, gpointer data)
